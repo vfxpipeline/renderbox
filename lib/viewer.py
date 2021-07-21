@@ -1,9 +1,5 @@
-# RenderBox AI
-### Artificial Intelligence Render Assistant for Maya, Nuke and Houdini
-
-![alt text](images/logo.png)
-
-
+"""
+RenderBox Viewer
 
     Artificial Intelligence Render Assistant for Maya, Nuke and Houdini
     RenderBox  Copyright (C) 2021  RAJIV SHARMA
@@ -17,3 +13,5 @@
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
+
+"""

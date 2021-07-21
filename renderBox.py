@@ -15,3 +15,24 @@ RenderBox
     GNU General Public License for more details.
 
 """
+from PySide2 import QtWidgets
+from gui import renderboxUI
+
+try:
+    import pymel.core as pm
+    import maya.cmds as cmds
+except ImportError as Err:
+    print(Err)
+
+
+class RenderBoxMaya(renderboxUI.Ui_MainWindow, QtWidgets.QMainWindow):
+    def __init__(self):
+        super(RenderBoxMaya, self).__init__()
+        self.setupUi(self)
+
+
+if __name__ == '__main__':
+    app = QtWidgets.QApplication([])
+    rbox = RenderBoxMaya()
+    rbox.show()
+    app.exec_()
