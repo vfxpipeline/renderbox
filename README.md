@@ -2,7 +2,7 @@
 ### Artificial Intelligence Render Assistant for Maya, Nuke and Houdini
 
 ![alt text](images/logo.png)
-
+![alt text](images/design1.png)
 
 
     Artificial Intelligence Render Assistant for Maya, Nuke and Houdini
